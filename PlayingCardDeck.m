@@ -7,6 +7,7 @@
 //
 
 #import "PlayingCardDeck.h"
+#import "PlayingCard.h"
 
 @implementation PlayingCardDeck
 
@@ -14,7 +15,11 @@
 {
     self = [super init];
     if (self) {
-        
+        for (NSString *suit in [PlayingCard validSuits]) {
+            for (NSInteger rank = 1; rank <= [PlayingCard maxRank]; rank++) {
+                
+            }
+        }
     }
     
     return self;
