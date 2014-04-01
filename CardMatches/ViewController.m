@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Card.h"
 
 @interface ViewController ()
 
